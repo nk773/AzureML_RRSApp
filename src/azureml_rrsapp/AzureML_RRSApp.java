@@ -116,7 +116,7 @@ public class AzureML_RRSApp {
         // second argument is full path with file name of API file that contains API URL and API Key of request response REST API
         if (args.length < 2) {
 			System.out.println("Incorrect usage. Please use the following calling pattern");
-			System.out.println("java rrsAPI <jsonFilename> <apiUrl> <apiKey>");
+			System.out.println("java AzureML_RRSApp <jsonFilename> <apiInfoFilename");
 	}
         
         try {
